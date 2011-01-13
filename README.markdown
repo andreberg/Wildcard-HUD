@@ -31,7 +31,7 @@ Building
 
 If you get an error while building that tells you it can't resolve a plug-in reference in MainMenu.xib, you may be missing the BGHUDAppKit.ibplugin for Interface Builder. 
 
-Look inside BGHUDAppKit.framework/Download the framework and install the Interface Builder plugin that comes with it.
+Look inside BGHUDAppKit.framework for the included plugin or download the framework and install the Interface Builder plugin that comes with it.
 
 Attribution
 -----------
