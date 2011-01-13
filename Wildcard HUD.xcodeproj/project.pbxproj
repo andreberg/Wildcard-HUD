@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DCDC0A506DB7FCA00136605 /* OgreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCDC0A406DB7FCA00136605 /* OgreKit.framework */; };
+		4DCDC0D306DB803800136605 /* WildcardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDC0D106DB803800136605 /* WildcardController.m */; };
+		4DCDC0D406DB803800136605 /* WildcardController.h in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDC0D206DB803800136605 /* WildcardController.h */; };
+		4DCDC0EC06DB82CB00136605 /* OgreKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DCDC0A406DB7FCA00136605 /* OgreKit.framework */; };
+		4DCDC10306DB83A400136605 /* ReadMe.ja.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDC10206DB83A400136605 /* ReadMe.ja.rtf */; };
+		4DEA81F307021CFC00A935E3 /* ReplaceStringFormatter.h in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA81F107021CFC00A935E3 /* ReplaceStringFormatter.h */; };
+		4DEA81F407021CFC00A935E3 /* ReplaceStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA81F207021CFC00A935E3 /* ReplaceStringFormatter.m */; };
+		6584B29312DE58AA005AE7F4 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6584B29212DE58AA005AE7F4 /* BGHUDAppKit.framework */; };
+		6584B29A12DE58AF005AE7F4 /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6584B29212DE58AA005AE7F4 /* BGHUDAppKit.framework */; };
+		65948E881264ACB200A88B76 /* Glob.icns in Resources */ = {isa = PBXBuildFile; fileRef = 65948E871264ACB200A88B76 /* Glob.icns */; };
+		65948F111264B08900A88B76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65948F0F1264B08900A88B76 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DCDC0A906DB7FE500136605 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6584B29A12DE58AF005AE7F4 /* BGHUDAppKit.framework in CopyFiles */,
+				4DCDC0EC06DB82CB00136605 /* OgreKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Wildcard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wildcard_Prefix.pch; sourceTree = "<group>"; };
+		4DCDC0A406DB7FCA00136605 /* OgreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OgreKit.framework; sourceTree = SOURCE_ROOT; };
+		4DCDC0D106DB803800136605 /* WildcardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WildcardController.m; sourceTree = SOURCE_ROOT; };
+		4DCDC0D206DB803800136605 /* WildcardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildcardController.h; sourceTree = SOURCE_ROOT; };
+		4DCDC10206DB83A400136605 /* ReadMe.ja.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.ja.rtf; sourceTree = SOURCE_ROOT; };
+		4DEA81F107021CFC00A935E3 /* ReplaceStringFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceStringFormatter.h; sourceTree = "<group>"; };
+		4DEA81F207021CFC00A935E3 /* ReplaceStringFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceStringFormatter.m; sourceTree = "<group>"; };
+		6584B29212DE58AA005AE7F4 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
+		65948E871264ACB200A88B76 /* Glob.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Glob.icns; sourceTree = "<group>"; };
+		65948F101264B08900A88B76 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Wildcard HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wildcard HUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4DCDC0A506DB7FCA00136605 /* OgreKit.framework in Frameworks */,
+				6584B29312DE58AA005AE7F4 /* BGHUDAppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDC0D206DB803800136605 /* WildcardController.h */,
+				4DCDC0D106DB803800136605 /* WildcardController.m */,
+				4DEA81F107021CFC00A935E3 /* ReplaceStringFormatter.h */,
+				4DEA81F207021CFC00A935E3 /* ReplaceStringFormatter.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDC0A406DB7FCA00136605 /* OgreKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				6584B29212DE58AA005AE7F4 /* BGHUDAppKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Wildcard HUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Wildcard */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDC0FF06DB837000136605 /* Documents */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Wildcard;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				32CA4F630368D1EE00C91783 /* Wildcard_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65948F0F1264B08900A88B76 /* MainMenu.xib */,
+				65948E871264ACB200A88B76 /* Glob.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DCDC0FF06DB837000136605 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDC10206DB83A400136605 /* ReadMe.ja.rtf */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Wildcard HUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB22B30096AD78E008EFE11 /* Build configuration list for PBXNativeTarget "Wildcard HUD" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				4DCDC0A906DB7FE500136605 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wildcard HUD";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Wildcard;
+			productReference = 8D1107320486CEB800E47090 /* Wildcard HUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4DB22B34096AD78E008EFE11 /* Build configuration list for PBXProject "Wildcard HUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Wildcard */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Wildcard HUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4DCDC0D406DB803800136605 /* WildcardController.h in Resources */,
+				4DCDC10306DB83A400136605 /* ReadMe.ja.rtf in Resources */,
+				4DEA81F307021CFC00A935E3 /* ReplaceStringFormatter.h in Resources */,
+				65948E881264ACB200A88B76 /* Glob.icns in Resources */,
+				65948F111264B08900A88B76 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				4DCDC0D306DB803800136605 /* WildcardController.m in Sources */,
+				4DEA81F407021CFC00A935E3 /* ReplaceStringFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65948F0F1264B08900A88B76 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65948F101264B08900A88B76 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB22B31096AD78E008EFE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					.,
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Wildcard_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Wildcard HUD";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4DB22B32096AD78E008EFE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					.,
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Wildcard_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOS_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOS_DEPLOYMENT_TARGET_ppc = 10.3;
+				PRODUCT_NAME = "Wildcard HUD";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4DB22B33096AD78E008EFE11 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				FRAMEWORK_SEARCH_PATHS = (
+					.,
+					"\"$(SRCROOT)\"",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Wildcard_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Wildcard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		4DB22B35096AD78E008EFE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		4DB22B36096AD78E008EFE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		4DB22B37096AD78E008EFE11 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB22B30096AD78E008EFE11 /* Build configuration list for PBXNativeTarget "Wildcard HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB22B31096AD78E008EFE11 /* Debug */,
+				4DB22B32096AD78E008EFE11 /* Release */,
+				4DB22B33096AD78E008EFE11 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4DB22B34096AD78E008EFE11 /* Build configuration list for PBXProject "Wildcard HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB22B35096AD78E008EFE11 /* Debug */,
+				4DB22B36096AD78E008EFE11 /* Release */,
+				4DB22B37096AD78E008EFE11 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

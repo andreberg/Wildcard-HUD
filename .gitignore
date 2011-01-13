@@ -1,0 +1,53 @@
+# Generic stuff
+
+*~
+*.[oa]
+*.bak
+
+# Mac OS X stuff
+
+Desktop DF
+Desktop DB
+.Spotlight-V100
+.DS_Store
+.Trashes
+.com.apple.timemachine.supported
+.fseventsd
+.syncinfo
+.TemporaryItems
+._.*
+
+# Xcode 3 stuff
+
+build/
+*~.nib
+*.pbxuser
+*.perspectivev3
+*.mode1
+*.mode1v3
+*.mode2v3
+
+# Xcode 4 stuff
+
+xcuserdata/
+*.xcworkspace
+
+# TextMate stuff
+
+*.tm_build_errors
+*.tmproj
+
+# Aptana stuff
+*.project
+
+# Python Stuff
+
+*.pyc
+
+# Generic Stuff
+
+backup/
+*.bak
+
+Wildcard.app/
+dist/
