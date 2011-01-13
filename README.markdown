@@ -7,10 +7,10 @@ It is a combination of Wildcard.app (a sample app distributed with the OgreKit.f
 
 ![alt text](http://www.bergmedia.de/remote/github/Wildcard-HUD/Wildcard-HUD.png "Title")
 
-Installation
-------------
+Installing
+----------
 
-Grab the [latest version](http://github.com/downloads/andreberg/Wildcard-Hud/WildcardHUD-latest.zip) from [downloads](http://github.com/andreberg/Wildcard-Hud/downloads), unzip, and drag the `Wildcard HUD.app` it produces to the Finder toolbar.   
+Grab the [latest version](http://github.com/downloads/andreberg/Wildcard-HUD/Wildcard%20HUD-latest.zip) from [downloads](http://github.com/andreberg/Wildcard-Hud/downloads), unzip, and drag the `Wildcard HUD.app` it produces to the Finder toolbar.   
 You may have to hover a bit over the exact location where you want to put it on your Finder toolbar.
 
 The recommended usage is putting the application into a Finder toolbar.  
@@ -26,6 +26,13 @@ Most buttons and checkboxes are quite self-explanatory.
 
 And you can also move selected files to the Trash and rename them.
 
+Building
+--------
+
+If you get an error while building that tells you it can't resolve a plug-in reference in MainMenu.xib, you may be missing the BGHUDAppKit.ibplugin for Interface Builder. 
+
+Look inside BGHUDAppKit.framework/Download the framework and install the Interface Builder plugin that comes with it.
+
 Attribution
 -----------
 
@@ -39,6 +46,10 @@ Uses [BGHUDAppKit](http://www.binarymethod.com/?page_id=90) Framework, created b
 
 License
 -------
+
+The original Wildcard.app is licensed under the OgreKit License.
+
+----
 
 Created by André Berg on 20-01-12.  
 Copyright 2011 Berg Media. All rights reserved.  
